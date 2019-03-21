@@ -22,10 +22,10 @@ export default class Navbar extends Component {
           <div className="navbar-item">
             <div className="field is-grouped">
               <p className="control">
-                <CoolButton isInfo>Login</CoolButton>
+                <CoolButton is-info>Login</CoolButton>
               </p>
               <p className="control">
-                <CoolButton isPrimary>Signup</CoolButton>
+                <CoolButton is-primary>Signup</CoolButton>
               </p>
             </div>
           </div>
