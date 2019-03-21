@@ -3,13 +3,7 @@ import classNames from 'classnames';
 
 export default class CoolButton extends Component {
   render() {
-    const btnClass = classNames('button', this.props.className, {
-      'is-danger': this.props.isDanger,
-      'is-small': this.props.isSmall,
-      'is-success': this.props.isSuccess,
-      'is-info': this.props.isInfo,
-      'is-primary': this.props.isPrimary,
-    });
+    const btnClass = classNames('button', this.props.className, this.props);
     return (
       <button className={btnClass}>{this.props.children}</button>
     )
